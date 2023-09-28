@@ -118,7 +118,7 @@ nav ul li a:hover {
 }
 
 
-/* Styling Project  */
+/* STYLING PROJECT  */
 #menu {
     padding: 50px 50px 50px 50px;
     text-align: center;
@@ -203,6 +203,8 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
+
+/* STYLING FOOTER */
 footer{
     padding: 50px 100px 10px 100px;
     font-family: "Open Sans";
