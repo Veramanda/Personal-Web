@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 * {
     text-decoration: none;
     margin: 0px;
@@ -56,6 +59,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* STYLING ABOUT */
 .wrapper-hero {
     background: #ecedee;
     width: 1100px;
@@ -64,7 +68,6 @@ nav ul li a:hover {
     border-radius: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
-
 }
 
 #hero {
@@ -78,6 +81,7 @@ nav ul li a:hover {
 }
 
 #say {
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 30px;
     width: 50%;
@@ -86,8 +90,8 @@ nav ul li a:hover {
 }
 
 #name {
-    font-family: 'Poppins';
-    font-weight: 600;
+    font-family: 'Open Sans';
+    font-weight: 800;
     font-size: 45px;
     color: #1a214e;
     width: 70%;
@@ -96,7 +100,8 @@ nav ul li a:hover {
 }
 
 #description{
-    font-weight: 200px;
+    font-family: 'Open Sans';
+    font-weight: 400;
     font-size: 18px;
     margin-left: 100px;
     width: 70%;
@@ -113,10 +118,92 @@ nav ul li a:hover {
     padding: 0px 100px 30px 100px;
     text-align: justify;
     font-size: large;
-    font-weight: 300;
-    color: #1a214e;
+    font-family: 'Open Sans';
+    font-weight: 500;
 }
 
+.edu {
+    padding: 0px 130px 30px 100px;
+    text-align: justify;
+}
+
+.edu-col {
+    flex: 33.33%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.list-edu {
+    height: 220px;
+    background: #1a214e;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.edu-judul {
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.list-edu p {
+    color: #fff;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.organitation {
+    padding: 0px 130px 30px 100px;
+    text-align: justify;
+}
+
+.or-title h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+}
+
+.or-borderr {
+    width: 255px;
+    height: 3px;
+    background: black;
+}
+
+.or-border {
+    width: 100px;
+    height: 3px;
+    background: black;
+}
+
+.or-konten h4 {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.or-jdl {
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.or-jdl h4 {
+    margin: 0px;
+    font-style: italic;
+}
+
+.or-konten ul {
+    padding: 0px 0px 10px 20px;
+    text-align: justify;
+}
 
 /* STYLING PROJECT  */
 #menu {
@@ -131,8 +218,8 @@ nav ul li a:hover {
 }
 
 .title h2 {
-    font-family: 'Open Sans';
-    font-weight: 900;
+    font-family: 'Poppins';
+    font-weight: 600;
     font-size: 25px;
     color: #1a214e;
     width: 100%;
@@ -163,6 +250,7 @@ nav ul li a:hover {
 
 .list-project {
     background: #ecedee;
+    height: 380px;
     padding: 30px;
     border-radius: 15px;
 }
@@ -173,17 +261,19 @@ nav ul li a:hover {
 }
 
 .list-project p {
-    font-family: 'Poppins';
+    font-family: 'Open Sans';
     display: contents;
     text-align: justify;
-    
+    font-size: medium;
+    font-weight: 400;
 }
 
 .judul{
     font-family: 'Open Sans';
     font-size: 20px;
-    font-weight: 650;
-    margin: 20px ;
+    font-weight: 700;
+    margin: 20px;
+    color: #1a214e;
   }
 
 .btn {
@@ -203,6 +293,105 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
+
+/* STYLING ARTIKEL */
+
+.list-article {
+    display: flex;
+    background: #ecedee;
+}
+
+.img-article {
+    padding: 10px 10px;
+}
+
+.jdl-article h3 {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+.jdl-article h5 {
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Opens Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #8f8f8f;
+}
+
+.border-article {
+    width: auto;
+    height: 2px;
+    background: #000000;
+    margin-bottom: 10px;
+}
+
+.wrapper-artikel {
+    background: #ecedee;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.artikel-img {
+    width: auto;
+    height: auto;
+    display: contents;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+.title-artikel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jdl-artikel h3 {
+    text-align: center;
+    padding: 30px 0px 10px 0px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 800;
+    color: #1a214e;
+}
+
+.title-artikel h5 {
+    margin: 5px 15px 5px 15px;
+    font-family: 'Opens Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #8f8f8f;
+}
+
+h5 {
+    margin: 0px 0px 0px 100px;
+    font-family: 'Opens Sans';
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.konten p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 15px 100px 15px 100px;
+}
+
+.konten h4 {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    text-align: justify;
+    padding: 0px 100px 0px 100px;
+}
 
 /* STYLING FOOTER */
 footer{
